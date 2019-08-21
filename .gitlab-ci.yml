@@ -4,6 +4,6 @@ stages:
 Build:
   stage: build
   script:
-  - echo "TESTING AUTOMATIC UPDATE..."
+  - echo "TESTING AUTOMATIC UPDATE (again)..."
   tags:
   - gke
