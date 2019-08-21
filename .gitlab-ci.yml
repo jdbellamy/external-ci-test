@@ -1,0 +1,9 @@
+stages:
+- build
+
+Build:
+  stage: build
+  script:
+  - echo "TESTING..."
+  tags:
+  - gke
